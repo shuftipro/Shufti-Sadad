@@ -537,6 +537,9 @@ SWIFT_CLASS("_TtC9ShuftiPro27DeclineResultViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified privacyPolicyTextLable;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified bottomSpaceForButtons;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified privacyTopView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loadingView;
+@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified loaderWebView;
+@property (nonatomic, weak) IBOutlet ShuftiExtendedUIlabel * _Null_unspecified loadingText;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)proceedButtonClickAction:(id _Nonnull)sender;
